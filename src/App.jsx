@@ -51,6 +51,9 @@ import TransactionHistory from './components/transactionhistory/TransactionHisto
 import ServiceType from './components/sevicecategories/ServiceType';
 import Categories from './components/servicemanagement/Categories';
 import AddCategoryDetails from './components/adcategory/AddCategoryDetails';
+import FinancialManagement from './components/finanace/FinancialManagement';
+import Account from './components/accounts/Account';
+import PayOut from './components/payouts/PayOut';
 
 
 const App = () => {
@@ -79,6 +82,9 @@ const App = () => {
             <Route path ="ServiceType" element={<ServiceType/>}/>
             <Route path ="Categories" element={<Categories/>}/>
             <Route path ="AddCategoryDetails" element={<AddCategoryDetails/>}/>
+            <Route path ="FinancialManagement" element={<FinancialManagement/>}/>
+            <Route path ="Account" element={<Account/>}/>
+            <Route path ="PayOut" element={<PayOut/>}/>
           </Routes>
         </div>
       </div>
